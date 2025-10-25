@@ -12,6 +12,13 @@ A TypeScript trading bot for four.meme tokens with automatic migration detection
 - **Stealth Mode**: Use StealthFund contract for anonymous wallet funding
 - **Simple Setup**: Just install and run with environment variables
 
+## 📞 Get in Touch
+
+**Telegram**: [@0xMuseNine](https://t.me/xMuseNine)
+**Discord**: [@0xMuseNine](https://discord.com/users/1274339638668038187)
+
+💼 **Open to freelance projects, full-time positions, and consulting opportunities**
+
 ## Setup
 
 1. **Install Dependencies**

@@ -1,3 +1,11 @@
+////////////////////
+// Project: Fourmeme-bsc-bnb-stealth-trading-bot-tools
+// Version: 1.0.0
+// Author: xMuseNine
+// Telegram: [@xMuseNine](https://t.me/xMuseNine)
+// GitHub: [https://github.com/Tru3Bliss](https://github.com/Tru3Bliss)
+// Fourmeme-bsc-bnb-stealth-trading-bot-tools | Sniper | bundler | volume | stealth
+
 import { ethers } from 'ethers';
 import * as fs from 'fs';
 import * as dotenv from 'dotenv';

@@ -1,3 +1,11 @@
+////////////////////
+// Project: Fourmeme-bsc-bnb-stealth-trading-bot-tools
+// Version: 1.0.0
+// Author: xMuseNine
+// Telegram: [@xMuseNine](https://t.me/xMuseNine)
+// GitHub: [https://github.com/Tru3Bliss](https://github.com/Tru3Bliss)
+// Fourmeme-bsc-bnb-stealth-trading-bot-tools | Sniper | bundler | volume | stealth
+
 // Environment variables matching Rust implementation
 const TOKEN_MANAGER2 = process.env.TOKEN_MANAGER2 || '0x5c952063c7fc8610FFDB798152D69F0B9550762b';
 const HELPER3_ADDRESS = process.env.HELPER3_ADDRESS || '0xF251F83e40a78868FcfA3FA4599Dad6494E46034';
