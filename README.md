@@ -9,7 +9,7 @@ A TypeScript trading bot for four.meme tokens with automatic migration detection
 - **PancakeSwap Trading**: Buy/sell tokens after migration (using PancakeRouter)
 - **Smart Routing**: Automatically chooses the correct exchange based on migration status
 - **Volume Bot**: Automated multi-wallet volume trading with stealth funding
-- **Stealth Mode**: Use StealthFund contract for anonymous wallet funding
+- **Stealth Mode**: Use StealthFund for bypass the bubblemap
 - **Simple Setup**: Just install and run with environment variables
 
 ## 📞 Get in Touch
@@ -79,7 +79,7 @@ A TypeScript trading bot for four.meme tokens with automatic migration detection
 The VolumeBot creates multiple random wallets and executes coordinated trading:
 
 1. **Wallet Creation**: Generates random wallets for each trading cycle
-2. **Funding**: Uses either direct transfers or StealthFund contract (stealth mode)
+2. **Funding**: Uses either direct transfers or StealthFund (stealth mode)
 3. **Sequential Funding**: Funds wallets one by one to avoid nonce conflicts
 4. **Parallel Trading**: Executes buy orders in parallel after funding
 5. **Sell Strategy**: Randomly selects wallets to sell based on configuration
@@ -107,7 +107,7 @@ The bot checks the `liquidityAdded` status from the Helper3 contract:
 
 ### Stealth Mode
 
-When `STEALTH_MODE=true`, the bot uses the StealthFund contract to fund wallets:
+When `STEALTH_MODE=true`, the bot uses the StealthFund to fund wallets:
 
 - Creates anonymous funding transactions
 - Hides the connection between main wallet and trading wallets
@@ -124,7 +124,7 @@ When `STEALTH_MODE=true`, the bot uses the StealthFund contract to fund wallets:
 - **`sellAmount()`**: Four.meme sell (before migration)
 - **`buyPancakeToken()`**: PancakeSwap buy (after migration)
 - **`sellPancakeToken()`**: PancakeSwap sell (after migration)
-- **`fundStealthChild()`**: Stealth funding via StealthFund contract
+- **`fundStealthChild()`**: Stealth funding via StealthFund
 - **`fundChild()`**: Direct wallet funding
 
 ### Example Usage
