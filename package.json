@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "ts-node src/trader.ts",
     "start": "ts-node src/volume-bot.ts",
-    "gather": "ts-node src/gather.ts"
+    "gather": "ts-node src/gather.ts",
+    "server": "ts-node src/server.ts",
+    "ui": "ts-node src/server.ts"
   },
   "keywords": [
     "ethereum",
@@ -30,6 +32,7 @@
     "@types/express": "^4.17.21",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.8.10",
+    "@validate-pubkey/hex": "1.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
